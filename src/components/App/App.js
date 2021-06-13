@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Navigation from "../Navigation/Navigation";
 import Home from "../Home/Home";
 import FaQsSection from "../FAQsSection/FAQsSection";
-import Form from "../Form/Form";
+import SocialProof from "../SocialProof/SocialProof";
 import "../styles/App.css";
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/FaQ" exact component={FaQsSection} />
-        <Route path="/contact" exact component={Form} />
+        <Route path="/SocialProof" exact component={SocialProof} />
       </Switch>
     </Router>
   );

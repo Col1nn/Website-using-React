@@ -22,8 +22,8 @@ const Navigation = () => {
             </Link>
           </li>
           <li className="navigation-item">
-            <Link to="/contact" className="navigation-links">
-              Form
+            <Link to="/SocialProof" className="navigation-links">
+              Social Proof
             </Link>
           </li>
         </ul>

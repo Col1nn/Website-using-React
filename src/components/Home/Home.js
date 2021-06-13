@@ -1,15 +1,15 @@
 import React from "react";
-import AboutUs from "../AboutUs/AboutUs";
-import SocialProof from "../SocialProof/SocialProof";
+import Headline from "../Headline/Headline";
 import Summary from "../Summary/Summary";
+import Form from "../Form/Form";
 import Footer from "../Footer/Footer";
 
 const Home = () => {
   return (
     <div>
-      <AboutUs />
-      <SocialProof />
+      <Headline />
       <Summary />
+      <Form />
       <Footer />
     </div>
   );
