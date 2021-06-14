@@ -3,7 +3,13 @@ import video from "../videos/video.mp4";
 import "../styles/Headline.css";
 import TypeWriter from "typewriter-effect";
 
-const AboutUs = () => {
+const Headline = () => {
+  const goToFormSection = () =>
+    window.scrollTo({
+      top: 1600,
+      left: 0,
+      behavior: "smooth",
+    });
   return (
     <div className="aboutUs-container">
       <video src={video} loop muted></video>
@@ -14,9 +20,11 @@ const AboutUs = () => {
           }}
         />
       </h1>
-      <button className="btn-contact">Let's get in touch!</button>
+      <button className="btn-contact" onClick={goToFormSection}>
+        Let's get in touch!
+      </button>
     </div>
   );
 };
 
-export default AboutUs;
+export default Headline;
