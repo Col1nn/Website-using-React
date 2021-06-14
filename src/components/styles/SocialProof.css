@@ -1,0 +1,90 @@
+.testimonials-container {
+  padding: 120px 0;
+  background: #f1f1f1;
+  color: #434343;
+  text-align: center;
+}
+
+.testimonials-inner {
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+  padding: 0 20px;
+}
+
+.testimonials-border {
+  width: 300px;
+  height: 5px;
+  background: black;
+  margin: 26px auto;
+}
+
+.testimonials-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.testimonials-col {
+  flex: 33, 33%;
+  max-width: 33.33%;
+  padding: 15px;
+  color: #fff;
+}
+
+.testimonials-testimonial {
+  background-color: #fff;
+  padding: 30px;
+}
+
+.first-background {
+  background: url("../images/maldives.jpg");
+}
+
+.second-background {
+  background: url("../images/lake.jpg");
+}
+
+.third-background {
+  background: url("../images/aurora.jpg");
+}
+
+.testimonials-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.testimonials-name {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+
+div.testimonials-name::after {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  border: 1px solid black;
+}
+
+.testimonials-stars {
+  color: yellowgreen;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 960px) {
+  .testimonials-col {
+    flex: 100%;
+    max-width: 80%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .testimonials-col {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
