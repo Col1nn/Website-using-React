@@ -4,10 +4,9 @@ import "../styles/Headline.css";
 import TypeWriter from "typewriter-effect";
 
 const Headline = () => {
-  const goToFormSection = () =>
+  const goToContact = () =>
     window.scrollTo({
-      top: 1600,
-      left: 0,
+      top: document.documentElement.scrollHeight,
       behavior: "smooth",
     });
   return (
@@ -20,7 +19,7 @@ const Headline = () => {
           }}
         />
       </h1>
-      <button className="btn-contact" onClick={goToFormSection}>
+      <button className="btn-contact" onClick={goToContact}>
         Let's get in touch!
       </button>
     </div>
