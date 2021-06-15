@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/Summary.css";
 import { AiFillStar } from "react-icons/ai";
 
 const Summary = () => {
+  const [subscription, setSubscription] = useState("");
+
+  const handleSubscription = (e) => setSubscription(e.target.value);
   return (
     <div className="summary-container">
       <h2 className="summary-team border">We are the TEAM</h2>
@@ -39,6 +42,7 @@ const Summary = () => {
               type="text"
               placeholder="Your Email"
               className="summary-subscription-input"
+              onChange={handleSubscription}
             />
             <button type="submit" className="summary-subscription-button">
               Subscribe
