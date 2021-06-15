@@ -39,7 +39,6 @@
 
 .faq-topic {
   font-size: 22px;
-  /* letter-spacing: 1px; */
   text-align: left;
   margin-bottom: 20px;
 }
@@ -52,6 +51,11 @@
 }
 
 @media screen and (max-width: 960px) {
+  .faq-inner > h1 {
+    width: 90%;
+    margin: 0 auto 20px;
+  }
+
   .faq-topic {
     font-size: 16px;
   }
