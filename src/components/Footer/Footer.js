@@ -43,7 +43,7 @@ const Footer = () => {
       </div>
       <section className="copyright">
         <div className="copyright-rights">
-          © Voyage 2021 <SiAffinitydesigner className="copyright-logo" />
+          © TRLTOUR 2021 <SiAffinitydesigner className="copyright-logo" />
         </div>
       </section>
     </div>

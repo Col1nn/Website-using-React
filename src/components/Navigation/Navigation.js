@@ -8,7 +8,7 @@ const Navigation = () => {
     <nav className="navigation">
       <div className="navigation-container">
         <Link to="/" className="navigation-logo">
-          VOYAGE <SiAffinitydesigner className="logo" />
+          TRLTOUR <SiAffinitydesigner className="logo" />
         </Link>
         <ul className="navigation-menu">
           <li className="navigation-item">
